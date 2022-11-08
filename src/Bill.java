@@ -25,6 +25,10 @@ class Bill
         {
             costOfMeal *= 1.20;
         }
+        else if(totalCustomers >= 2)
+        {
+            costOfMeal *= 1.05;
+        }
     }
 
 
